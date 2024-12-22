@@ -1,0 +1,19 @@
+.logo {
+  font-size: 25px;
+
+  background-color: white;
+  color: #4d4d4d;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 39.06px;
+}
+
+.logo p {
+  display: inline-block;
+}

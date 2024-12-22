@@ -1,0 +1,35 @@
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  align-items: center;
+
+  padding: 20px;
+  margin-bottom: 20px;
+
+  font-size: 25px;
+  color: #2e290e;
+
+  font-family: "BNazanin", sans-serif;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  border-radius: 20px;
+}
+
+.person img {
+  width: 100px;
+  height: 100px;
+
+  grid-row: 1 / -1;
+
+  border-radius: 20px;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.person .person-account {
+  font-family: "BTabassom", sans-serif;
+  font-size: 20px;
+}

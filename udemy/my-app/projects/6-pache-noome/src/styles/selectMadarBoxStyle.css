@@ -1,0 +1,72 @@
+.select-madar-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(255, 255, 255, 0);
+
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.select-madar-box .the-box {
+  background-color: #f8f9fa;
+
+  border-radius: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+
+  padding: 20px;
+
+  max-width: 85%;
+  max-height: 85%;
+}
+
+.select-madar-box .the-box .close-icon {
+  margin-bottom: 20px;
+}
+
+.select-madar-box .the-box .close-icon:hover {
+  cursor: pointer;
+}
+
+.select-madar-box .the-box .headline {
+  font-family: "BTabassom", sans-serif;
+
+  font-size: 31.25px;
+  color: #3b4752;
+
+  margin-bottom: 20px;
+}
+
+.select-madar-box .the-box .button-select-madar-box {
+  justify-self: start;
+
+  font-family: "BTabassom", sans-serif;
+  font-size: 31.25px;
+
+  border: 0px solid black;
+  border-radius: 20px;
+
+  padding: 5px 20px;
+
+  background-color: #4dabf7;
+
+  cursor: pointer;
+}

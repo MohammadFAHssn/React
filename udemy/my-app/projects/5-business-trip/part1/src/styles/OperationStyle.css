@@ -1,0 +1,16 @@
+.operation {
+  text-align: center;
+}
+
+.operation button {
+  background-color: #e9c46a;
+  color: #1d1604;
+
+  border: 1px solid #e9c46a;
+  border-radius: 12px;
+
+  font-size: 20px;
+
+  padding: 12px;
+  margin: 12px;
+}

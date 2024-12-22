@@ -1,0 +1,187 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+
+  height: 100vh;
+}
+
+h1 {
+  background-color: #f4a226;
+  color: #4a2e04;
+
+  font-size: 76.29px;
+  font-family: "Monoton", cursive;
+  font-weight: normal;
+
+  text-align: center;
+
+  padding: 25px 0px;
+}
+
+/* -------------- form-start -------------- */
+
+.select-items {
+  background-color: #e5771f;
+  color: #321a06;
+
+  text-align: center;
+
+  padding: 25px 0px;
+
+  font-weight: 600;
+}
+
+.count,
+.enter-item {
+  margin-right: 25px;
+}
+
+.count,
+.enter-item,
+.add {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.count,
+.enter-item {
+  background-color: #ffebb3;
+  color: #805e00;
+
+  border-radius: 25px;
+  border: #ffebb3;
+
+  padding: 10px 15px;
+}
+
+.what {
+  margin-right: 50px;
+}
+
+.count {
+  text-align: center;
+}
+
+.count-options {
+  font-size: 0.8em;
+}
+
+.add {
+  background-color: #76c7ad;
+  color: #215041;
+
+  text-transform: uppercase;
+
+  border-radius: 25px;
+  border: #76c7ad;
+
+  padding: 10px 15px;
+
+  cursor: pointer;
+}
+
+/* -------------- form-end -------------- */
+
+/* -------------- start-Items -------------- */
+
+.items {
+  background-color: #b78767;
+  color: #37261b;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.item {
+  display: inline-block;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  border-radius: 25px;
+
+  margin: 25px;
+  padding: 10px 15px;
+}
+
+.item-form {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.check-item {
+  height: 25px;
+  width: 25px;
+}
+
+.delete-item {
+  background-color: #c7a28a;
+  color: red;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  border: #b78767;
+  border-radius: 1000px;
+
+  padding: 0px 9px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.handle-items {
+  text-align: center;
+
+  padding: 25px 0px;
+}
+
+.sort-items,
+.clear-list {
+  font-size: 0.8em;
+  text-transform: uppercase;
+
+  padding: 5px 10px;
+
+  border-radius: 20px;
+  border: #8c5543;
+
+  background-color: #8c5543;
+  color: #efe3df;
+}
+
+.sort-items {
+  margin-right: 25px;
+}
+
+.sort-items-options {
+  font-size: 0.8em;
+}
+
+.clear-list {
+  cursor: pointer;
+}
+
+/* -------------- end-Items -------------- */
+
+/* -------------- start-Stats -------------- */
+
+.stats {
+  background-color: #76c7ad;
+  color: #215041;
+
+  text-align: center;
+
+  padding: 25px 0px;
+}

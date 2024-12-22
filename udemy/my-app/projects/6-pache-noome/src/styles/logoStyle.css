@@ -1,0 +1,15 @@
+.logo {
+  padding: 1em;
+
+  background-color: #fcbf49;
+
+  grid-column: 1 / -1;
+}
+
+.logo h1 {
+  text-align: center;
+
+  font-family: "BTabassom", sans-serif;
+  color: #452e01;
+  font-size: 61.04px;
+}

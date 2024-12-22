@@ -1,0 +1,35 @@
+.person-for-select-pache {
+  display: inline-block;
+
+  padding: 20px;
+  margin: 0px 20px 20px 0px;
+
+  text-align: center;
+
+  font-size: 25px;
+  color: #3b4752;
+
+  font-family: "BNazanin", sans-serif;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  border-radius: 20px;
+
+  user-select: none;
+
+  cursor: pointer;
+}
+
+.person-for-select-pache img {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 20px;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.person-for-select-pache .person-account {
+  font-family: "BTabassom", sans-serif;
+  font-size: 20px;
+}

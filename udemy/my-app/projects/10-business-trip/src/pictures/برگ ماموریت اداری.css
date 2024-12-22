@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "BNazanin";
+  src: url("../fonts/BNazanin/BNazanin.eot?#") format("eot"),
+    url("../fonts/BNazanin/BNazanin.woff") format("woff"),
+    url("../fonts/BNazanin/BNazanin.ttf") format("truetype");
+}
+
+*,
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "BNazanin";
+  line-height: 1;
+}
+
+p {
+  padding: 0.4em;
+}
+/* ############################################## */
+
+.head {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.head div {
+  text-align: center;
+}
+
+.head .allah {
+  font-size: 0.8rem;
+}
+
+.head .allah p {
+  padding: 0.1em;
+}
+
+.head .No {
+  width: 10em;
+}
+/* ############################################## */
+.personal-information,
+.business-trip,
+.from,
+.superior,
+.administrative,
+.comment {
+  display: flex;
+  align-items: center;
+
+  margin: 0.5em 0;
+  padding: 0.5em;
+
+  border: 1px solid black;
+  border-radius: 4px;
+}
+/* ############################################## */
+
+.personal-information .user {
+  padding: 1em;
+}
+
+/* ############################################## */
+
+.business-trip {
+  display: block;
+}
+
+.business-trip .date {
+  display: flex;
+}
+
+.business-trip .date p {
+  flex-grow: 1;
+}
+
+/* ############################################## */
+
+.from div,
+.from p {
+  flex-grow: 1;
+}
+
+/* ############################################## */
+
+.superior div,
+.superior p {
+  flex-grow: 1;
+}
+
+/* ############################################## */
+
+.administrative div,
+.administrative p {
+  flex-grow: 1;
+}
+
+/* ############################################## */
+
+.comment {
+  display: block;
+}

@@ -1,0 +1,49 @@
+.person-for-pache {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  color: white;
+
+  font-size: 20px;
+}
+
+.person-for-pache .person-name {
+  grid-column: 1 / 2;
+  font-family: "BNazanin", sans-serif;
+}
+
+.person-for-pache .delete-pache {
+  cursor: pointer;
+}
+
+.person-for-pache .label {
+  font-family: "BTabassom", sans-serif;
+}
+
+.person-for-pache input {
+  justify-self: start;
+
+  font-family: "BTabassom", sans-serif;
+  font-size: 20px;
+  direction: ltr;
+
+  width: 70%;
+
+  border: 0px solid black;
+  border-radius: 20px;
+
+  padding: 0px 0px 0px 20px;
+}
+
+.person-for-pache input:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}

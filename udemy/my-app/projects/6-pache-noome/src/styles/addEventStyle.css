@@ -1,0 +1,7 @@
+.add-event {
+  background-color: #f1f3f5;
+
+  display: flex;
+
+  overflow: auto;
+}

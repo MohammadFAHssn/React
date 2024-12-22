@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "BTabassom";
+  src: url("../fonts/BTabassom.eot?#") format("eot"),
+    url("../fonts/BTabassom.woff") format("woff"),
+    url("../fonts/BTabassom.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BNazanin";
+  src: url("../fonts/BNazanin.eot?#") format("eot"),
+    url("../fonts/BNazanin.woff") format("woff"),
+    url("../fonts/BNazanin.ttf") format("truetype");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pache-noome {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 1fr;
+  height: 100vh;
+
+}

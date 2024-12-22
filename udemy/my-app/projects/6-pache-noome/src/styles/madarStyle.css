@@ -1,0 +1,68 @@
+.madar {
+  background-color: #a61e4d;
+
+  border-radius: 20px;
+
+  margin: 20px;
+  padding: 20px;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 20px;
+
+  overflow: auto;
+}
+
+.madar .add-button {
+  background-color: #003049;
+
+  font-family: "BTabassom", sans-serif;
+  color: #e2f5ff;
+  font-size: 20px;
+
+  text-align: center;
+
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+
+  padding: 20px;
+
+  user-select: none;
+}
+
+.madar .add-button:hover,
+.madar .add-button:focus {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  cursor: pointer;
+}
+
+.madar .add-button:hover {
+  transform: translateY(-1px);
+}
+
+.madar .add-button:active {
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.madar form {
+  overflow: auto;
+
+  padding: 5.24px;
+}
+
+.madar form::-webkit-scrollbar {
+  width: 10.24px;
+}
+
+.madar form::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+.madar form::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+
+.madar form::-webkit-scrollbar-thumb:hover {
+  background: #ffffff80;
+}

@@ -1,0 +1,44 @@
+.header {
+  background-color: #5f3dc4;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 23px;
+  padding: 23px;
+
+  border-radius: 23px;
+}
+
+/* .header h1,
+.header p,
+.header input,
+.header form {
+  background-color: #5f3dc4;
+  color: #f3f0ff;
+} */
+/* ???????????????????????????????????? */
+
+.header h1 {
+  font-size: 47.78px;
+}
+
+.header input,
+.header p {
+  font-size: 19.2px;
+}
+
+.header input {
+  border: 1px solid #f3f0ff;
+  border-radius: 11px;
+
+  padding: 7px;
+}
+
+.header input:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+
+  background-color: #7950f2;
+  color: white;
+}
